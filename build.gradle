@@ -23,6 +23,7 @@ repositories {
 
 
 dependencies {
+	compile 'com.google.guava:guava:22.0'
 	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	runtime('mysql:mysql-connector-java')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
